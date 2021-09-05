@@ -9,6 +9,8 @@ Create an simple API for scale which can :-
 - delete products
 - get all products
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/17278290-6f4c2514-88d7-44fb-90c3-bdf932c2eb70?action=collection%2Ffork&collection-url=entityId%3D17278290-6f4c2514-88d7-44fb-90c3-bdf932c2eb70%26entityType%3Dcollection%26workspaceId%3D667f9152-ded6-439f-8fb4-4cbf7c3aeb15)
+
 ## API Usage
 
 Returns JSON data
@@ -23,13 +25,13 @@ Returns JSON data
 
 ## Schema
 
-_name_: String (required)
+_name_: String (required while creating new product)
 
 _description_: String
 
-_price_: Float (greater than zero)
+_price_: Float (>0)
 
-_quantity_: Number (default = 1)
+_quantity_: Number (default = 1) (>=0)
 
 **Example**
 
