@@ -15,6 +15,8 @@ Create an simple API for scale which can :-
 
 Returns JSON data
 
+_id_ is ObjectId assigned by MongoDB
+
 | Endpoints                  | METHOD | Description                         |
 | -------------------------- | ------ | ----------------------------------- |
 | /api/v1/product/create     | POST   | creates new product                 |
