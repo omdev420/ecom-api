@@ -29,9 +29,9 @@ _description_: String
 
 _price_: Float (greater than zero)
 
-_quantity_: Number (defualt = 1)
+_quantity_: Number (default = 1)
 
-Example
+**Example**
 
 ```json
 {
