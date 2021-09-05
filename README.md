@@ -24,8 +24,11 @@ Returns JSON data
 ## Schema
 
 _name_: String (required)
+
 _description_: String
+
 _price_: Float (greater than zero)
+
 _quantity_: Number (defualt = 1)
 
 Example
